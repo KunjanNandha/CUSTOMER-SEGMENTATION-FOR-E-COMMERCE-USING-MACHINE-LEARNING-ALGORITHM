@@ -1,0 +1,10 @@
+streamlit run "C:\Users\Kunjan Nandha\Downloads\Project\app.py"
+
+
+streamlit run "C:\Users\Kunjan Nandha\Downloads\Vitabot-main\Vitabot-main\vitabot.py"
+
+
+what are the symptoms of fewer
+
+
+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
