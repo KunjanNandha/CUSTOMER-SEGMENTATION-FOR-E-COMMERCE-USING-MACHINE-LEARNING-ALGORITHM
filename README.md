@@ -107,7 +107,6 @@ jupyter notebook Main.ipynb
 ### 5. Run the Web App
 
 ```bash
-# Check the Run.txt file for exact command, or try:
 streamlit run app.py
 ```
 
@@ -118,13 +117,11 @@ streamlit run app.py
 ```
 Customer Segmentation/
 │
-├── .venv/                        # Virtual environment
 ├── Main.ipynb                    # Main Jupyter notebook (EDA + ML)
 ├── app.py                        # Web app for customer segmentation
 ├── customer.xlsx                 # E-commerce dataset (23 MB)
 ├── avg_values.pkl                # Saved model cluster averages
-├── Histograms of Attributes.png  # EDA visualization
-└── Run.txt                       # Instructions to run the project
+└── Histograms of Attributes.png  # EDA visualization
 ```
 
 ---

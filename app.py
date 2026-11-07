@@ -1,9 +1,11 @@
+from pathlib import Path
+
 import streamlit as st
 import pandas as pd
 import numpy as np
 
 # Load the average values DataFrame from the pickle file
-avg_values = pd.read_pickle(r"C:\Users\Kunjan Nandha\Downloads\Project\avg_values.pkl")
+avg_values = pd.read_pickle(Path(__file__).with_name("avg_values.pkl"))
 
 # Create a function to calculate Euclidean distance
 def euclidean_distance(x1, x2):
